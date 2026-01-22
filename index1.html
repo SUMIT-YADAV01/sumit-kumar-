@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car hub</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        .one{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-shrink: inherit;
+            text-align: center;
+            justify-content: space-evenly;
+            
+            
+    
+
+        }
+        
+     
+        .two{
+             margin: 0;
+            padding: 0;
+            display: flex;
+            flex-shrink: inherit;
+            text-align: center;
+            justify-content: center;
+            
+              
+ 
+  }
+   .navbar{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: black;
+            align-items: center;
+            margin: 0;
+            
+        
+            
+
+        }
+        .navlinks{
+            text-decoration: none;
+            display: flex;
+            gap: 30px;
+            list-style: none;
+            text-decoration: none;
+
+
+
+        }
+        .navlinks a{
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+        }
+
+        .nav{
+
+            width: 90px;
+            height: 40px;
+            color: black;
+            background-color: white;
+            border-radius: 20px;
+            text-decoration: none;
+           
+
+        }
+        body{
+            /* background-image: linear-gradient(45deg,rgba(18, 230, 106, 0.815),rgb(245, 84, 191)); */
+            width: 100%;
+            height: 100vh;
+        }
+    
+
+    .about-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 10%;
+      min-height: 90vh;
+      background-color: #e6dfd1; /* Soft beige tone */
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-left {
+      flex: 1;
+      padding-right: 40px;
+    }
+
+    .about-left h2 {
+      font-size: 2.5rem;
+      color: #3b4d40; /* Muted dark green */
+      margin-bottom: 20px;
+    }
+
+    .about-left p {
+      line-height: 1.7;
+      font-size: 1.1rem;
+      color: #4b564e;
+    }
+
+    .about-right {
+      flex: 1;
+      height: 400px;
+      background-color: #c5bfa8; 
+      /* background-image: url("imagee2.jpg"); */
+      border-radius: 15px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 900px) {
+      .about-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 5%;
+      }
+
+      .about-left {
+        padding-right: 0;
+        margin-bottom: 30px;
+      }
+
+      .about-right {
+        width: 100%;
+        height: 300px;
+      }
+    }
+
+    
+        
+
+
+        
+
+    </style>
+</head>
+<body style="background-color: #e6dfd1">
+  <nav class="navbar">
+        <img src="https://fusioncars.in/wp-content/themes/Fusion%20Cars/assets/images/header_logo.png" style="width: 150px;height: 80px;"> 
+        
+<ul class="navlinks">       
+<li><a href="index.html">Home</a></li>
+<li><a href="gwagon2.html">Products</a></li>
+<li><a href="contact.html">Contact us</a></li>
+<li><a href="#about">About us</a></li>
+<li><a href="#services">Services</a></li>
+
+
+
+</ul>
+<div class="btn">
+   <button class="nav" > <a href="signin.html"> sign in</a></button>
+  <button class="nav"><a href="login.html">login</button></a> 
+
+
+
+</div>
+
+    </nav>
+   <b> <hr ></b>
+<!-- 
+    <h1 style="width: 100%;height: 100px;color: black;font-family: 'Times New Roman', Times, serif;text-align: center;text-decoration: underline;"> COLLECTIONS</h1> -->
+<div class="one">
+ <img src="porsche-removebg-preview (1).png" style="width: 350px;height: 200px;
+ ;" alt="bullet" class="image2"> 
+ <img src="Untitled.png" style="width: 400px;height: 230px;" alt="bullet" class="image2"> 
+<p style="color:black;font-size: 60px;text-align: center;justify-content: center;"> 
+   Porsche 911 Carrera
+    
+
+</p>
+
+</div>
+<hr>
+<div class="two">
+ <a href="gwagon2.html">  <pre style="display: flex;gap: 220px;"> <img src="gwagon4-removebg-preview.png" style="width: 300px;height: 300px; " alt="gwagon" class="image"> 
+ </a>
+ <img src="gwagon5-removebg-preview.png" style="width: 400px;height: 300px;" alt="gwagon" class="image"></pre>
+<a href="gwagon2.html" style="text-decoration: none;">  <p style="color: black;font-size: 60px;text-align: center;">
+     Mercedes-Benz G-Class G63
+    
+    
+</p> </a>
+
+</div>
+
+<hr>
+ <section class="about-section" id="about">
+    <div class="about-left">
+      <h2>About Me</h2>
+      <p>
+        Hello! I’m <strong>Sumit Kumar Yadav</strong>, a B.Tech CSE student passionate about
+        technology, software development, and creating digital solutions that
+        make a difference. I enjoy exploring programming, designing projects,
+        and constantly learning new tools to improve my craft. My goal is to
+        build a strong career in software engineering while contributing to
+        meaningful innovations.
+      </p>
+    </div>
+    <div class="about-right">
+      <!-- Add your image here later using CSS:
+           background-image: url('your-image.jpg'); -->
+    </div>
+  </section>
+  <hr>
+  <!-- ===== Services Section ===== -->
+<section class="services-section" id="services">
+  <h2 class="section-title">Our Services</h2>
+
+  <div class="services-container">
+    <div class="service-card">
+      <h3>Car Sales</h3>
+      <p>Explore a curated selection of luxury and performance cars, from timeless classics to the latest supercars.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Car Customization</h3>
+      <p>Personalize your ride with exclusive customization options — interior, exterior, and performance tuning.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Maintenance & Support</h3>
+      <p>We provide professional car servicing, detailing, and expert guidance to keep your vehicle in top condition.</p>
+    </div>
+  </div>
+</section>
+
+<style>
+/* ===== Services Section Styles ===== */
+.services-section {
+  background-color: #e6dfd1;
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #3b4d40;
+  margin-bottom: 50px;
+  font-family: 'Georgia', serif;
+  letter-spacing: 1px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.service-card {
+  background-color: #f4efe4;
+  border-radius: 15px;
+  flex: 1 1 300px;
+  padding: 30px 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.service-card h3 {
+  color: #2f3e34;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  color: #4b564e;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card {
+    width: 90%;
+  }
+}
+</style>
+<hr>
+
+ <footer>
+    © 2026 Car Hub | Designed by Sumit Kumar Yadav |
+     | <a href="#">GitHub</a> | <a href="#">Portfolio</a>
+  </footer>
+    
+</body>
+</html>
